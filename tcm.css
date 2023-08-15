@@ -43,7 +43,7 @@ header{
     height: 100%;
     display: flex;
     padding: 15px;
- 
+    
     
 }
 
@@ -352,7 +352,8 @@ nav {
         justify-content: center;
         align-items: center;
         height: 3vh;
-        
+        position: absolute;
+        top: 50%;
     }
     #h2 {
         font-size: 3vw;
