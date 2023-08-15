@@ -349,8 +349,49 @@ nav {
     #h1 {
         width: 100%;
         font-size: 3vw;
+        justify-content: center;
         align-items: center;
-        height: 1vw;
+        height: 3vh;
+        
+    }
+    #h2 {
+        font-size: 3vw;
+        align-items: center;
+        justify-content: center;
+        height: 3vh;
+        
+    }
+
+    #h3 {
+       
+        font-size: 3vw;
+        justify-content: center;
+        align-items: center;
+        height: 3vh;
+        
+    }
+
+    #h4 {
+        
+        font-size: 3vw;
+        justify-content: center;
+        align-items: center;
+        height: 3vh;
+        
+    }
+    #h5 {
+        font-size: 3vw;
+        justify-content: center;
+        align-items: center;
+        height: 3vh;
+        
+    }
+    #h6 {
+       
+        font-size: 3vw;
+        justify-content: center;
+        align-items: center;
+        height: 3vh;
         
     }
 
@@ -394,6 +435,11 @@ nav {
         margin-top: 5px;
      
      }
+
+    #f1 {
+        height: 9vw;
+        
+    }
     
     
 }
