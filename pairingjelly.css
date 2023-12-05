@@ -1,0 +1,528 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+div#titulofundo {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.64);
+}
+
+div#titulo {
+    width: 20%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.2em;
+
+}
+
+div#titulo img {
+    width: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+    div#titulofundo {
+        height: 30vh;
+  
+    }
+
+    div#titulo {
+        width: 60%;
+        height: 6vh;
+        font-size: 1em;
+    
+    }
+}
+
+p {
+    font-size: 1.3em;
+    color: #050D22;
+    padding: 15px;
+    font-family: 'Noto Serif Old Uyghur', serif;
+}
+
+div#berries {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#berries img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#berries .foto {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FEC150;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#berries .des {
+    width: 40%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+
+}
+
+.linha5 {
+    width: 0.2vw;
+    height: 18vh;
+    background-color: #050D22;
+
+}
+.linha4 {
+    width: 0.2vw;
+    height: 18vh;
+    background-color: #00220a;
+
+}
+.linha6 {
+    width: 0.2vw;
+    height: 18vh;
+    background-color: #FEC150;
+
+}
+
+div#berries .queijo {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#berries .vinho {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#berries {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#berries img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#berries .foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#berries .des {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .linha5 {
+        width: 100%;
+        height: 0.2vh;
+    
+    }
+    .linha4 {
+        width: 100%;
+        height: 0.2vh;
+    
+    }
+    .linha6 {
+        width: 100%;
+        height: 0.2vh;
+    
+    }
+
+    div#berries .queijo {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#berries .vinho {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+}
+
+div#pepper {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#pepper img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#pepper .foto {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FEC150;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#pepper .des {
+    width: 40%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+
+}
+
+div#pepper .queijo {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#pepper .vinho {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#pepper {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#pepper img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#pepper .foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#pepper .des {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    div#pepper .queijo {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#pepper .vinho {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+}
+
+div#dam {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#dam img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#dam .foto {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FEC150;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#dam .des {
+    width: 40%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+
+}
+
+div#dam .queijo {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#dam .vinho {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#dam {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#dam img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#dam .foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#dam .des {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    div#dam .queijo {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#dam .vinho {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+}
+
+div#ora {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#ora img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#ora .foto {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FEC150;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#ora .des {
+    width: 40%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+
+}
+
+div#ora .queijo {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#ora .vinho {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #fec15095;
+    color: #050D22;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#ora {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#ora img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#ora .foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#ora .des {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    div#ora .queijo {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#ora .vinho {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+}

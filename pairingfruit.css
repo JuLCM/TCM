@@ -1,0 +1,527 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+div#titulofundo {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.64);
+}
+
+div#titulo {
+    width: 20%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.2em;
+
+}
+
+div#titulo img {
+    width: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+    div#titulofundo {
+        height: 30vh;
+  
+    }
+
+    div#titulo {
+        width: 60%;
+        height: 6vh;
+        font-size: 1em;
+    
+    }
+}
+
+p {
+    font-size: 1.3em;
+    color: #fdfdfd;
+    padding: 15px;
+    font-family: 'Noto Serif Old Uyghur', serif;
+}
+
+div#uva {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#uva img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#uva .foto {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #00220a;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#uva .des {
+    width: 40%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #00220a88;
+
+}
+
+.linha5 {
+    width: 0.2vw;
+    height: 18vh;
+    background-color: #050D22;
+
+}
+.linha4 {
+    width: 0.2vw;
+    height: 18vh;
+    background-color: #FEC150;
+
+}
+.linha6 {
+    width: 0.2vw;
+    height: 18vh;
+    background-color: #00220a;
+
+}
+
+div#uva .queijo {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00220a88;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#uva .vinho {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #00220a88;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#uva {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#uva img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#uva .foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#uva .des {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .linha5 {
+        width: 100%;
+        height: 0.2vh;
+    
+    }
+    .linha4 {
+        width: 100%;
+        height: 0.2vh;
+    
+    }
+    .linha6 {
+        width: 100%;
+        height: 0.2vh;
+    
+    }
+
+    div#uva .queijo {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#uva .vinho {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+}
+
+div#mor {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#mor img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#mor .foto {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #00220a;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#mor .des {
+    width: 40%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00220a88;
+
+}
+
+div#mor .queijo {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #00220a88;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#mor .vinho {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00220a88;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#mor {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#mor img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#mor .foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#mor .des {
+        width: 100%;
+        height: auto;
+    }
+
+    div#mor .queijo {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#mor .vinho {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+}
+
+div#dam {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#dam img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#dam .foto {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #00220a;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#dam .des {
+    width: 40%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00220a88;
+
+}
+
+div#dam .queijo {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #00220a88;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#dam .vinho {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #00220a88;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#dam {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#dam img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#dam .foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#dam .des {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    div#dam .queijo {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#dam .vinho {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+}
+
+div#fram {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div#fram img {
+    width: 25%;
+    height: 10vh;
+    
+}
+
+div#fram .foto {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #00220a;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#fram .des {
+    width: 40%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:  #00220a88;
+
+}
+
+div#fram .queijo {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00220a88;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+div#fram .vinho {
+    width: 20%;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00220a88;
+    color: #Fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.6em;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#fram {
+       width: 100%;
+       height: auto;
+       flex-direction: column;
+
+    }
+
+    div#fram img {
+        width: 15%;
+        height: 6vh;
+    }
+
+    div#fram .foto {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#fram .des {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    div#fram .queijo {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+
+    div#fram .vinho {
+        width: 100%;
+        height: 15vh;
+        font-size: 0.4em;
+    
+    }
+}

@@ -1,0 +1,216 @@
+div#titulo {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.64);
+    color: #fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.4em;
+
+}
+
+div#titulo img {
+    width: 5%;
+    height: 9vh;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    div#titulo {
+        font-size: 1em;
+    
+    }
+
+    div#titulo img {
+        width: 20%;
+    }
+
+}
+
+div#receita {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#receita {
+        height: auto;
+        flex-direction: column;
+    
+    }
+}
+
+div#ingredientes {
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+div#ingredientes .cima {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00220a;
+    color: #fdfdfd;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 0.8em;
+
+}
+
+div#ingredientes .escrita {
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div#ingredientes .foto {
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div#ingredientes .foto img {
+    width: 80%;
+    height: 8vh;
+
+}
+
+div#ingredientes .texto {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #00220a88;
+    color: #fdfdfd;
+    font-size: 1em;
+    font-family: 'Noto Serif Old Uyghur', serif;
+
+}
+
+@media only screen and (max-width: 800px) {
+    div#ingredientes {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    div#ingredientes .texto {
+        width: 100%;
+        height: auto;
+    
+    }
+}
+
+div#modo {
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+div#modo .cima {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fdfdfd;
+    background-color: #050d22;
+    font-family: 'Homemade Apple', cursive; 
+    font-size: 0.8em;
+
+}
+
+div#modo .escrita {
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div#modo .foto {
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div#modo .foto img {
+    width: 40%;
+    height: 8vh;
+
+}
+
+div#modo .texto {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #050d228e;
+    color: #fdfdfd;
+    font-size: 1.2em;
+    font-family: 'Noto Serif Old Uyghur', serif;
+
+}
+
+p {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    div#modo {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    div#modo .foto img {
+        width: 70%;
+    
+    }
+
+    div#modo .texto {
+        width: 100%;
+        height: auto;
+    
+    }
+}
