@@ -169,4 +169,9 @@ p {
         height: 30vh;
         font-size: 1.4em;
     }
+
+    div#vinho, div#noz, div#geleia, div#fruta, div#pao {
+        height: auto;
+        
+    }
 }
